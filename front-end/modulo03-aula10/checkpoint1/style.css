@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley&display=swap');
+* {
+    margin: 0;
+    
+    
+}
+body{
+    background-image: url("maxresdefault.jpg");
+    opacity: 1;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: besley, cursive;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+.topo {    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(31, 136, 221);
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-family: pacifico, cursive ;
+
+}
+
+
+.video {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+

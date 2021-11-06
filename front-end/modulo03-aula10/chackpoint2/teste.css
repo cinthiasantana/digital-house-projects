@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    
+}
+
+body {
+    background-image: url("maxresdefault.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    font-family: besley, cursive;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    z-index:1;
+    background-color: rgb(27, 155, 194);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 1.2;
+}
+
+p, ul, li, .insta, .youtube{
+    margin: 25px 0px; 
+}
+
+ul {
+    list-style: none;
+}
+
+main strong {
+    color: white;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: rgb(27, 155, 194);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
